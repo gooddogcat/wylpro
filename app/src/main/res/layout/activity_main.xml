@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/detaildoctor_introduction_worktime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.example.yilunwu.abcworry.VisitsTimeView
+            android:id="@+id/worktimeview_detaildoctor"
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+
+            android:padding="1dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
