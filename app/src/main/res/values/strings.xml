@@ -5,4 +5,8 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_test_web_view_flip">TestWebViewFlip</string>
+    <string name="title_activity_swipe_list">SwipeListActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_app_compat">AppCompatActivity</string>
+    <string name="title_activity_main3">Main3Activity</string>
 </resources>

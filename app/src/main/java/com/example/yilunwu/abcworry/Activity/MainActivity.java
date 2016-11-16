@@ -1,14 +1,12 @@
-package com.example.yilunwu.abcworry;
+package com.example.yilunwu.abcworry.Activity;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.yilunwu.abcworry.Activity.Main2Activity;
+import com.example.yilunwu.abcworry.R;
 
 public class MainActivity extends Activity  {
 
@@ -20,9 +18,13 @@ public class MainActivity extends Activity  {
 
 
         Intent intent=new Intent(this,Main2Activity.class);
-        intent.putExtra("data","s");
+        intent.putExtra("data", "s");
         startActivityForResult(intent, 1);
+
+
     }
+
+
 
 
 

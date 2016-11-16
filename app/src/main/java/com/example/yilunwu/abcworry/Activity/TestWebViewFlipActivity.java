@@ -1,17 +1,16 @@
-package com.example.yilunwu.abcworry;
+package com.example.yilunwu.abcworry.Activity;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ViewFlipper;
 
-public class TestWebViewFlip extends Activity {
+import com.example.yilunwu.abcworry.R;
+import com.example.yilunwu.abcworry.view.MyWebView;
+
+public class TestWebViewFlipActivity extends Activity {
     private WebView webview;
     private ViewFlipper flipper;
     MyWebView myWebView;

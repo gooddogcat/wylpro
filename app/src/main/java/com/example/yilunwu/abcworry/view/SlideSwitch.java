@@ -1,4 +1,4 @@
-package com.example.yilunwu.abcworry;
+package com.example.yilunwu.abcworry.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -11,6 +11,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
+
+import com.example.yilunwu.abcworry.R;
 
 /**
  * @since 2014/05/22

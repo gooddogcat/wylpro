@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
-    <com.example.yilunwu.abcworry.SlideSwitch
+    <com.example.yilunwu.abcworry.view.SlideSwitch
         android:id="@+id/slide_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

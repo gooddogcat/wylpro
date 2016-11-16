@@ -1,4 +1,4 @@
-package com.example.yilunwu.abcworry;
+package com.example.yilunwu.abcworry.view;
 
 import android.content.Context;
 import android.util.Log;
@@ -6,6 +6,8 @@ import android.view.MotionEvent;
 import android.view.animation.AnimationUtils;
 import android.webkit.WebView;
 import android.widget.ViewFlipper;
+
+import com.example.yilunwu.abcworry.R;
 
 /**
  * Created by yilunwu on 16/11/7.
@@ -43,7 +45,7 @@ public class MyWebView extends WebView {
                     long time=currentTime-downTime;
                     Log.i("Touch Event:","Distance:"+difference+"px Time:"+time+"ms");
                     if ((downXValue<currentX)&&(difference>100&&(time<220))){
-                        this.flipper.setInAnimation(AnimationUtils.loadAnimation(this.getContext(),R.anim.push_right_in));
+                        this.flipper.setInAnimation(AnimationUtils.loadAnimation(this.getContext(), R.anim.push_right_in));
                         this.flipper.setOutAnimation(AnimationUtils.loadAnimation(this.getContext(),R.anim.push_right_out));
                         flipper.showPrevious();
                     }
