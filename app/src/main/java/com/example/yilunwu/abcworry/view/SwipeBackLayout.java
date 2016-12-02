@@ -20,6 +20,10 @@ import com.example.yilunwu.abcworry.R;
 /**
  * Created by yilunwu on 16/11/15.
  */
+
+/**
+ * 侧滑返回
+ */
 public class SwipeBackLayout extends FrameLayout {
     private ViewDragHelper mViewDragHelper;
     // 主界面

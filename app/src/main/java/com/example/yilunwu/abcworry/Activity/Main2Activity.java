@@ -9,6 +9,11 @@ import android.widget.Button;
 
 import com.example.yilunwu.abcworry.R;
 import com.example.yilunwu.abcworry.view.SlideSwitch;
+import com.squareup.okhttp.Callback;
+import com.squareup.okhttp.FormEncodingBuilder;
+import com.squareup.okhttp.Request;
+
+import java.io.File;
 
 public class Main2Activity extends Activity implements SlideSwitch.OnChangedListener {
 
@@ -46,7 +51,8 @@ public class Main2Activity extends Activity implements SlideSwitch.OnChangedList
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                returnData();
+//                returnData();
+
             }
         });
 

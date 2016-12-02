@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.yilunwu.abcworry.view.SlideMenuView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="大神在此"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="删除"
+            android:textSize="16dp"
+            android:background="@android:color/transparent"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="置顶"
+            android:textSize="16dp"
+            android:background="@android:color/transparent"
+            />
+
+    </com.example.yilunwu.abcworry.view.SlideMenuView>
+
+</RelativeLayout>

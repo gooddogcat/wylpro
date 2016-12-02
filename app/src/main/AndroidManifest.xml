@@ -8,12 +8,10 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
-
-    <activity
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
             android:name=".Activity.MainActivity"
             android:label="@string/app_name" >
-
         </activity>
         <activity
             android:name=".Activity.Main2Activity"
@@ -26,12 +24,6 @@
         <activity
             android:name=".Activity.SwipeListActivity"
             android:label="@string/title_activity_swipe_list" >
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Activity.SecondActivity"
@@ -40,7 +32,31 @@
         <activity
             android:name=".Activity.Main3Activity"
             android:label="@string/title_activity_main3" >
+        </activity>
+        <activity
+            android:name=".Activity.Main4Activity"
+            android:label="@string/title_activity_main4" >
+        </activity>
+        <activity
+            android:name=".Activity.GestureBackDemoActivity"
+            android:label="@string/title_activity_gesture_back_demo" >
+        </activity>
+        <activity
+            android:name=".Activity.Main5Activity"
+            android:label="@string/title_activity_main5" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.SwipeBackDemoActivity"
+            android:label="@string/title_activity_swipe_back_demo" >
+        </activity>
+        <activity
+            android:name=".Activity.Main6Activity"
+            android:label="@string/title_activity_main6" >
         </activity>
     </application>
 
