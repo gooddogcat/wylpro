@@ -1,5 +1,6 @@
 package com.example.yilunwu.abcworry.Activity;
 
+import android.app.Activity;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,7 +19,7 @@ import com.squareup.okhttp.Response;
 import java.io.IOException;
 
 
-public class Main6Activity extends AppCompatActivity {
+public class Main6Activity extends Activity {
     private OkHttpClient okHttpClient=new OkHttpClient();
     public TextView show;
     public Handler handler=new Handler();
@@ -43,7 +44,16 @@ public class Main6Activity extends AppCompatActivity {
 
             @Override
             public void onResponse(Response response) throws IOException {
-                final Headers headers=response
+                final Headers headers=response.headers();
+                final String str=response.body().string();
+                handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        for (int i=0;i<headers.size();i++){
+                            show.append(headers.name(i)+":"+headers.value(i));
+                        }
+                    }
+                });
             }
         });
 
