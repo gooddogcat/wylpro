@@ -29,4 +29,7 @@
     <string name="delete">删除</string>
     <string name="copy">复制</string>
     <string name="title_activity_main6">Main6Activity</string>
+    <string name="title_activity_main7">Main7Activity</string>
+    <string name="title_activity_indexable_list_view">IndexableListViewActivity</string>
+    <string name="title_activity_weixin_recorder">weixinRecorderActivity</string>
 </resources>
