@@ -32,4 +32,8 @@
     <string name="title_activity_main7">Main7Activity</string>
     <string name="title_activity_indexable_list_view">IndexableListViewActivity</string>
     <string name="title_activity_weixin_recorder">weixinRecorderActivity</string>
+
+    <string name="str_record_normal">按住说话</string>
+    <string name="str_record_recording">松开结束</string>
+    <string name="str_record_want_cancel">松开手指，取消发送</string>
 </resources>

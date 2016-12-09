@@ -3,6 +3,9 @@
     package="com.example.yilunwu.abcworry" >
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -60,15 +63,16 @@
         <activity
             android:name=".Activity.IndexableListViewActivity"
             android:label="@string/title_activity_indexable_list_view" >
+
+        </activity>
+        <activity
+            android:name=".Activity.weixinRecorderActivity"
+            android:label="@string/title_activity_weixin_recorder" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".Activity.weixinRecorderActivity"
-            android:label="@string/title_activity_weixin_recorder" >
         </activity>
     </application>
 
