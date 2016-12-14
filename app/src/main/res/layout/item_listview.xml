@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/id_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Android新技能"
+        android:singleLine="true"
+        android:textColor="#444" />
+
+
+    <CheckBox
+        android:focusable="false"
+        android:id="@+id/id_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/id_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_title"
+        android:layout_marginTop="10dp"
+        android:text="Android打造万能的ListView和GridView适配器"
+        android:maxLines="2"
+        android:minLines="1"
+        android:layout_toLeftOf="@+id/id_cb"
+        android:textColor="#898989"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:id="@+id/id_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_desc"
+        android:layout_marginTop="10dp"
+        android:text="2016-12-10"
+        android:textColor="#898989"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/id_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_desc"
+        android:layout_marginTop="50dp"
+        android:text="10086"
+        android:drawableLeft="@drawable/ic_action_search"
+        android:drawablePadding="5dp"
+        android:padding="3dp"
+        android:layout_alignParentRight="true"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:background="#2ED667"
+        />
+
+
+</RelativeLayout>

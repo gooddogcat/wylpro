@@ -3,11 +3,19 @@
     package="com.example.yilunwu.abcworry" >
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
 
     <application
+        android:name=".utils.CustomApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -63,17 +71,174 @@
         <activity
             android:name=".Activity.IndexableListViewActivity"
             android:label="@string/title_activity_indexable_list_view" >
-
         </activity>
         <activity
             android:name=".Activity.weixinRecorderActivity"
             android:label="@string/title_activity_weixin_recorder" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyActivity"
+            android:label="@string/title_activity_study" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyActivity2"
+            android:label="@string/title_activity_study2"
+            android:launchMode="singleInstance"
+            android:process=":StudyActivity2" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyActivity3"
+            android:label="@string/title_activity_study3" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyActivity4"
+            android:label="@string/title_activity_study4" >
+            <intent-filter>
+                <action android:name="www.imooc.com" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.StudyBaseAdapterActivity"
+            android:label="@string/title_activity_study_base_adapter" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyCommonAdapterActivity"
+            android:label="@string/title_activity_study_common_adapter" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyHttpActivity"
+            android:label="@string/title_activity_study_http" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyAsyncTaskActivity"
+            android:label="@string/title_activity_study_async_task" >
+        </activity>
+        <activity
+            android:name=".Activity.ImageTestActivity"
+            android:label="@string/title_activity_image_test" >
+        </activity>
+        <activity
+            android:name=".Activity.ProgressBarTestActivity"
+            android:label="@string/title_activity_progress_bar_test" >
+        </activity>
+        <activity
+            android:name=".Activity.RegistActivity"
+            android:label="@string/title_activity_regist" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyHandlerActivity"
+            android:label="@string/title_activity_study_handler" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyLooperActivity"
+            android:label="@string/title_activity_study_looper" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyHandlerThreadActivity"
+            android:label="@string/title_activity_study_looper_thread" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyHandlerMessageActivity"
+            android:label="@string/title_activity_study_handler_message" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyUiChangeActivity"
+            android:label="@string/title_activity_study_ui_change" >
+        </activity>
+        <activity
+            android:name=".Activity.StudySharedPreferences1Activity"
+            android:label="@string/title_activity_study_shared_preferences1" >
+        </activity>
+        <activity
+            android:name=".Activity.StudySqLiteActivity"
+            android:label="@string/title_activity_study_sq_lite" >
+        </activity>
+        <activity
+            android:name=".Activity.StudySqLite2Activity"
+            android:label="@string/title_activity_study_sq_lite2" >
+        </activity>
+        <activity
+            android:name=".Activity.StudySqLite3Activity"
+            android:label="@string/title_activity_study_sq_lite3" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyFileOperateActivity"
+            android:label="@string/title_activity_study_file_operate" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyFileOperate1Activity"
+            android:label="@string/title_activity_study_file_operate1" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyContentProviderActivity"
+            android:label="@string/title_activity_study_content_provider" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyContentProvider2Activity"
+            android:label="@string/title_activity_study_content_provider2" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyBroadcastReceiverActivity"
+            android:label="@string/title_activity_study_broadcast_receiver" >
+        </activity>
+
+        <receiver android:name=".utils.BC1" >
+            <intent-filter android:priority="100" >
+                <action android:name="BC_One" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".utils.BC2" >
+            <intent-filter android:priority="200" >
+                <action android:name="BC_One" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".StudyServiceActivity"
+            android:label="@string/title_activity_study_service" >
+        </activity>
+
+        <service
+            android:name=".Service.MyStartService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".Service.MyBindService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".Activity.StudySystemServiceActivity"
+            android:label="@string/title_activity_study_system_service" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyGestureDetectorActivity"
+            android:label="@string/title_activity_study_gesture_detector" >
+
+        </activity>
+        <activity
+            android:name=".Activity.StudyGestureoverlayviewActivity"
+            android:label="@string/title_activity_study_gestureoverlayview" >
+        </activity>
+        <activity
+            android:name=".Activity.DownloadActivity"
+            android:label="@string/title_activity_download" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".Service.DownloadService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
     </application>
 
 </manifest>
