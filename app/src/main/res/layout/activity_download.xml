@@ -8,39 +8,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.yilunwu.abcworry.Activity.DownloadActivity">
 
-    <TextView
-        android:id="@+id/tvFileName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-
-    <ProgressBar
-        android:id="@+id/pbProgress"
-        style="?android:attr/progressBarStyleHorizontal"
+    <ListView
+        android:id="@+id/lvFile"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/tvFileName"
-        android:layout_below="@+id/tvFileName" />
-
-    <Button
-        android:id="@+id/btnStop"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/pbProgress"
-        android:text="停止"
+        android:layout_height="match_parent"
         />
 
-    <Button
-        android:id="@+id/btnStart"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/btnStop"
-        android:layout_toLeftOf="@+id/btnStop"
-        android:text="下载"
-        />
+
 
 
 
