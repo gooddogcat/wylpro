@@ -56,7 +56,7 @@ public class MainActivity extends Activity  {
 
 
         Intent intent=new Intent(this,Main2Activity.class);
-        intent.putExtra("data", "s");
+        intent.putExtra("data", "DisposeDataListener");
         startActivityForResult(intent, 1);
 
 

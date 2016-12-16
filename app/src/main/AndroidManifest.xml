@@ -196,7 +196,7 @@
         </receiver>
 
         <activity
-            android:name=".StudyServiceActivity"
+            android:name=".Activity.StudyServiceActivity"
             android:label="@string/title_activity_study_service" >
         </activity>
 
@@ -218,7 +218,6 @@
         <activity
             android:name=".Activity.StudyGestureDetectorActivity"
             android:label="@string/title_activity_study_gesture_detector" >
-
         </activity>
         <activity
             android:name=".Activity.StudyGestureoverlayviewActivity"
@@ -227,11 +226,6 @@
         <activity
             android:name=".Activity.DownloadActivity"
             android:label="@string/title_activity_download" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <service
@@ -239,6 +233,30 @@
             android:enabled="true"
             android:exported="true" >
         </service>
+        <service
+            android:name=".Service.MinaService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".Activity.MinaTestActivity"
+            android:label="@string/title_activity_mina_test" >
+
+        </activity>
+        <activity
+            android:name=".Activity.SimpleOkHttpActivity"
+            android:label="@string/title_activity_simple_ok_http" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyweixinviewActivity"
+            android:label="@string/title_activity_studyweixinview" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

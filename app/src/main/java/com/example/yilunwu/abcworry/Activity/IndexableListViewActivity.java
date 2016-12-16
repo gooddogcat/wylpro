@@ -55,7 +55,7 @@ public class IndexableListViewActivity extends Activity {
         mItems.add("P p");
         mItems.add("Q q");
         mItems.add("R r");
-        mItems.add("S s");
+        mItems.add("S DisposeDataListener");
         mItems.add("T t");
         mItems.add("U u");
         mItems.add("V v");

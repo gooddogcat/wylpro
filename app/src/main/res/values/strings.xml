@@ -66,4 +66,7 @@
     <string name="title_activity_study_gesture_detector">StudyGestureDetectorActivity</string>
     <string name="title_activity_study_gestureoverlayview">StudyGestureoverlayviewActivity</string>
     <string name="title_activity_download">DownloadActivity</string>
+    <string name="title_activity_mina_test">MinaTestActivity</string>
+    <string name="title_activity_simple_ok_http">SimpleOkHttpActivity</string>
+    <string name="title_activity_studyweixinview">StudyweixinviewActivity</string>
 </resources>
