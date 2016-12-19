@@ -242,7 +242,6 @@
         <activity
             android:name=".Activity.MinaTestActivity"
             android:label="@string/title_activity_mina_test" >
-
         </activity>
         <activity
             android:name=".Activity.SimpleOkHttpActivity"
@@ -251,6 +250,23 @@
         <activity
             android:name=".Activity.StudyweixinviewActivity"
             android:label="@string/title_activity_studyweixinview" >
+        </activity>
+        <activity
+            android:name=".Activity.CustomProgressBarActivity"
+            android:label="@string/title_activity_custom_progress_bar" >
+        </activity>
+        <activity
+            android:name=".Activity.Universal_ImageLoaderActivity"
+            android:label="@string/title_activity_universal__image_loader" >
+        </activity>
+        <activity
+            android:name=".Activity.PicassoActivity"
+            android:label="@string/title_activity_picasso" >
+
+        </activity>
+        <activity
+            android:name=".Activity.OkHttpActivity"
+            android:label="@string/title_activity_ok_http" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

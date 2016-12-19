@@ -69,4 +69,8 @@
     <string name="title_activity_mina_test">MinaTestActivity</string>
     <string name="title_activity_simple_ok_http">SimpleOkHttpActivity</string>
     <string name="title_activity_studyweixinview">StudyweixinviewActivity</string>
+    <string name="title_activity_custom_progress_bar">CustomProgressBarActivity</string>
+    <string name="title_activity_universal__image_loader">Universal_ImageLoaderActivity</string>
+    <string name="title_activity_picasso">PicassoActivity</string>
+    <string name="title_activity_ok_http">OkHttpActivity</string>
 </resources>
