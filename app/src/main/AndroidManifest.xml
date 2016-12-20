@@ -13,6 +13,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
     <application
         android:name=".utils.CustomApplication"
@@ -262,17 +263,30 @@
         <activity
             android:name=".Activity.PicassoActivity"
             android:label="@string/title_activity_picasso" >
-
         </activity>
         <activity
             android:name=".Activity.OkHttpActivity"
             android:label="@string/title_activity_ok_http" >
+        </activity>
+        <activity
+            android:name=".Activity.StudyRecycleViewActivity"
+            android:label="@string/title_activity_study_recycle_view" >
+
+        </activity>
+        <activity
+            android:name=".Activity.Animation360Activity"
+            android:label="@string/title_activity_animation360" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".Service.MyFloatService"
+             >
+        </service>
     </application>
 
 </manifest>

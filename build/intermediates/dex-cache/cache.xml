@@ -2,11 +2,53 @@
 <items version="2" >
 
     <item
-        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="false"
         revision="24.0.2"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-bc61af6fdb5e06fde9e40810b9173303748bd7a1.jar" />
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-33d7764533b11a58c911c77381b380203a239d9c.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1-e5439d12d93bdc64ae26148e9b777595147f5352.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/library-1.0.19-03dc97086e939afbb1ab2cd689ed7d985b0829f8.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1-904983c3066b398ef3af93cf307413638dcfe65c.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-45bddcd2d56a9242aef2d96c3d15ab3d90f7ce90.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/libs/mina-core-2.0.4.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="1224b7c4127231b2d12c2f0e98b4c448a5f83faf">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/mina-core-2.0.4-5761fa62009c6fdf2644bba2ed915d5c8cf0a094.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-ea362a8e54129ef79570c55e0a6849d9f1cec9ff.jar" />
     </item>
     <item
         jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.6.0/212387a39088ecd3daff8e3bfc3bdc4123e33c67/okhttp-2.6.0.jar"
@@ -14,6 +56,181 @@
         revision="24.0.2"
         sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
         <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/okhttp-2.6.0-477fce8c38d719b2a42e494687b1a4118559a952.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1-346c3cb55ce599fc160dc9d44abce2e3c7a89782.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0-550313a8db7131b7b7086b08220b565d0047ea0f.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-61c8d9cd73711b043e7e57ca545f1ade3cffc741.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.3.1/2c4076b466a0eb4d6ddf5721edd35cd1adc1f317/stetho-1.3.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="2c4076b466a0eb4d6ddf5721edd35cd1adc1f317">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/stetho-1.3.1-0927b35af86172978e09c0af2f3887da4fd62ad6.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/gson-2.2.4-8d325ab20d2123c1796fd4d44fe59ad5b4ae354a.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-1122d549b8f766910cb89d8fcb5381a4bedfcf1e.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-e71c15a6fec675f536144fef9a01de1729afa151.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0-bc0018781ff3d26be95546606d8ff079eb796e38.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/jsr305-2.0.1-1bb9a91a620e58a652ae223ac43adb47ec2b810c.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-ccb70d2e1fe527b0e9973819c0bbc74ff6a5cd98.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-b9031a49717f5ad701a34759c89f50ad8de78d0e.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1-48af63fbb5b918e4832c55fdd3786a7509354688.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-7acc4d6ea3e443cabb7fb915c8b9554a17da8b3b.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/commons-cli-1.2-af2152c099240e71337bc8c14c08662dfa104b83.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-845ec961368cd9daa0f120830f2c1758a720b3f9.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-d8d2232a729eb1aab47230eae5277da6805dca0c.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-748e9877dbde41c12a76fbe2120695d0ba0924c4.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-6d28d87281b7836b4617c70ed9be36c65c211157.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.0.1/345b89f45d02d8b09400b472fab7b7e38f4ede1f/butterknife-annotations-8.0.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.0.1-f64f52cd345e1369e5efcb2e9248f3264da18bd9.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1-2b0bd8b30b20bfab127902558cb85792ba058656.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/classes-d291f8ab4ff644daaf9ed52b2854a670d6ff22ab.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp3/1.3.1/c596b3b33b5a92107bb70544bb5ee35f597bc6d8/stetho-okhttp3-1.3.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c596b3b33b5a92107bb70544bb5ee35f597bc6d8">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/stetho-okhttp3-1.3.1-81db190d02015b2449d30bfce1db50257dadacdf.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/okio-1.6.0-0abfdd0a453337b6430bba08be8ffc9331d48c95.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.0/5c06d197fb7fa875ad452f562e3310dd9949d066/retrofit-2.0.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="5c06d197fb7fa875ad452f562e3310dd9949d066">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-7da96cfbf1d4f01e1338aed2884482d0616f46d8.jar" />
+    </item>
+    <item
+        jar="/Users/yilunwu/wylpro/app/libs/slf4j-android-1.6.1-RC1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="a0b527e8aabcc1f1e97d1674dc3f4f0794ec5df1">
+        <dex dex="/Users/yilunwu/wylpro/app/build/intermediates/pre-dexed/debug/slf4j-android-1.6.1-RC1-b2ef6db6278d6aeda3dfbc4255e72d774978d4f2.jar" />
     </item>
 
 </items>

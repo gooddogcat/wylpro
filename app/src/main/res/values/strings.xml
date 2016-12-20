@@ -73,4 +73,10 @@
     <string name="title_activity_universal__image_loader">Universal_ImageLoaderActivity</string>
     <string name="title_activity_picasso">PicassoActivity</string>
     <string name="title_activity_ok_http">OkHttpActivity</string>
+    <string name="title_activity_study_recyler_view">StudyRecylerViewActivity</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="title_activity_swipe_card">SwipeCardActivity</string>
+    <string name="title_activity_tan_tan">TanTanActivity</string>
+    <string name="title_activity_study_recycle_view">StudyRecycleViewActivity</string>
+    <string name="title_activity_animation360">Animation360Activity</string>
 </resources>

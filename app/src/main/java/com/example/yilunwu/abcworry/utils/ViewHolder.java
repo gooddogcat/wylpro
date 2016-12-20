@@ -2,6 +2,7 @@ package com.example.yilunwu.abcworry.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.util.Log;
 import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -71,6 +72,8 @@ public class ViewHolder {
         return this;
     }
 
+
+
     public ViewHolder setImageResource(int viewId,int resId){
         ImageView view=getView(viewId);
         view.setImageResource(resId);
@@ -93,4 +96,6 @@ public class ViewHolder {
         return mPostion;
     }
 
+    public void setOnClickListener(int tv, View.OnClickListener tag1) {
+    }
 }
